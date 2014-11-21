@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+    	<meta http-equiv="Content-Language" content="es"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=600">
+
+    	<meta name="DC.url" content="https://handleit.pratnez.com/" />
+	    <meta name="CDN.url" content="https://handleit.pratnez.com/" />
+
+	    <meta property="og:image" content="90x90.png"/>
+	    <title>Handle It - C'thun</title>
+		<meta content='Comunidad de usuarios del wow, guild destinada al pve y al contenido de maximo nivel.' name='description'/>
+		<link href="{{ app.request.basepath }}/static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="{{ app.request.basepath }}/static/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+
+</head>
+
+	<body>
+		{% block header %}{% endblock %}
+		{% block navigation %}{% endblock %}
+		{% block content %}{% endblock %}
+		{% block footer %}{% endblock %}
+
+		<!--javascripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="{{ app.request.basepath }}/static/js/bootstrap.min.js"></script>
+	</body>
+</html>

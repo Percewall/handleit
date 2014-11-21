@@ -1,0 +1,178 @@
+/*{margin:0px; padding:0px; border:0px;}
+a {color:black; text-decoration:none; display:block;}
+a:link {}
+a:visited{}
+a:hover{color:red; text-decoration:underline; background-color: silver;}
+a:active {}
+p {text-align:justify;}
+h1 {font-size:1.2em; color:black; font-weight:bold; text-decoration:underline; text-align:center;}
+h2 {font-size:1.1em; color:black; font-weight:bold; text-decoration:none; text-align:center;}
+body {text-align:center; background-color:#272727;}
+
+#global {width:1080px; margin:4px auto;}
+
+
+#espacio {width:1080px; height:150px;}
+
+#cabecera {height:214px; padding-top:0px;background-color: transparent}
+#logotipo {background-color:slategrey; width:280px; float:left;}
+#publicidad {width:518px; float: right; margin-top:25px;}
+
+#navegacion {background-color:gray; border: black 1px solid; height:35px; width: auto; padding:0px;}
+#nav_index {float: left; font-size: 20px; font-weight:bold; height:35px; width:268px; border-right: black 1px solid;}
+#nav_armeria {float: left;font-size: 20px; font-weight:bold; height:35px; width:268px; border-right: black 1px solid;}
+#nav_chat {float: left; font-size: 20px; font-weight:bold; height:35px; width:268px; border-right: black 1px solid;}
+#nav_foro {float: left; font-size: 20px; font-weight:bold; height:35px; width:269px;}
+
+#navegacion a {color: blue; text-decoration:none}
+#navegacion a:link {}
+#navegacion a:visited {}
+#navegacion a:hover {text-decoration:none; background-color: silver; height:33px;}
+#navegacion a:active {color:black}
+
+#navegacion ul { margin-left: 300px; font-size: 20px; font-weight:bold}
+#navegacion p {text-decoration:none; margin:2px 0px 0px 0px; font-size:1.1em; color: black; text-align:center;}
+
+.select{background-color:#A635E8; overflow: hidden;}
+
+#contenido {background-color:#DCDCDC; border-left:black 1px solid; border-right:black 1px solid;}
+#contenido p {padding:5px 10px 5px 10px; text-indent:15px;}
+#contenidochat {background-color:#DCDCDC; border-left:black 1px solid; border-right:black 1px solid;}
+#contenidochat p {padding:5px 10px 5px 10px; text-indent:15px;}
+
+#contenidoindex {background-color:#DCDCDC; border-left:black 1px solid; border-right:black 1px solid; height:1200px}
+#contenidoindex p {padding:5px 10px 5px 10px; text-indent:15px;}
+#videopresentacion{}
+#videoshannox{}
+
+#wowprogress{float:left; width: 200px;}
+#noticias{float:left; width: 778px;}
+#roster{height:1040px;}
+#roster h1 {font-size:1.4em; color:Red; font-weight:bold; text-decoration:underline; text-align:center;}
+#roster ul {}
+#roster li {float:left; list-style:none; margin:0px 20px 0px 20px;}
+#roster a {color: blue; text-decoration:none}
+#roster a:link {}
+#roster a:visited {}
+#roster a:hover {color:black ; text-decoration:underline ;}
+#roster a:active {color:black}
+
+#oficiales{}
+#oficiales ul { margin-left:345px}
+
+#coreraiders{margin: auto;}
+#coreraiders ul { margin-left:345px}
+
+#raiders{float:center}
+#raiders ul { margin-left:147px; margin-right:130px; padding-bottom:20px;}
+
+#mostrarforo {background-color:slategrey; width:500px; height:400px}
+#registrarse {float:left; text-align:center;  margin: 5px 5px 5px 50px;}
+#conectarse {float: right; text-align:center; margin: 5px 50px 5px 700px;}
+#conectarse h1 {font-size:1.2em; color:black; font-weight:bold; text-decoration:underline; margin-left: 70px; text-align:left;}
+#livechat {height:600px; width:770px; text-align:center; border:black 1px solid;}
+#chat-mensajes {
+  overflow: auto;
+}
+
+#menu {width:150px; float:left; text-align:left; margin:3px 10px 3px 3px; background-image: url(../images/menu-parte-inferior.gif); background-position:bottom; padding-bottom:5px;}
+#menu h1 {text-decoration:none; font-size:12px; background-image: url(../images/menu-parte-superior.gif);}
+#menu li {list-style:none; text-align:left; margin:4px 8px 4px 6px;}
+
+#pie { background-color: white; border-left: black 1px solid; border-right: black 1px solid; border-top: black 1px solid; height: 75px ;}
+#pie li {list-style:none; font-size:14px; margin-top: 5px;}
+#pieuno {background-color:white; float:left; width:200px;}
+#piedos {background-color:white; float:left; width:678px;}
+#pietres {background-color:white; float:left; width:200px;}
+#curva-inferior {background-image:url(../images/curva-inferior.gif); background-repeat: no-repeat; width:1080px; height: 12px; overflow: hidden;}
+
+#logotipo a {}
+#logotipo a:link {}
+#logotipo a:visited {}
+#logotipo a:hover {background-color: white }
+#logotipo a:active {}
+
+#pie a {color: blue; text-decoration:none ; display: block }
+#pie a:link {}
+#pie a:visited {}
+#pie a:hover {color:black ; text-decoration:underline ; background-color: white }
+#pie a:active {color:black}
+
+.logoglowna {
+background-image: url(../images/header.png);
+background-size: 100% 100%;
+background-repeat:no-repeat;
+width: 981px;
+height: 214px;
+text-align: center;
+margin: auto auto;
+}
+.imagenfondo{
+    background-image: url('../images/fondo2.jpg');
+    background-color: #272727;
+    background-repeat:no-repeat;
+    height: 101%;
+    margin: auto auto;
+}
+.title1{
+
+}
+title2{
+
+}
+.dk{
+    color: #c41e3b;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.druid{
+    color: #ff7c0a;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.hunter{
+    color: #aad372;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.mage{
+    color: #68ccef;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.monk{
+    color: #00ffba;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.pala{
+    color: #f48cba;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.priest{
+    color: #f0ebe0;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.rogue{
+    color: #fff468;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.shaman{
+    color: #2359ff;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.warlock{
+    color: #9382c9;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.warrior{
+    color: #c69b6d;
+    font-size:1.1em;
+    font-weight:bold;
+}
+*/
