@@ -32,9 +32,10 @@ return array(
     'Symfony\\Bundle\\WebProfilerBundle\\' => array($vendorDir . '/symfony/web-profiler-bundle'),
     'Symfony\\Bridge\\Twig\\' => array($vendorDir . '/symfony/twig-bridge'),
     'Symfony\\Bridge\\Monolog\\' => array($vendorDir . '/symfony/monolog-bridge'),
-    'Silex\\Provider\\' => array($vendorDir . '/silex/web-profiler'),
+	'Silex\\Provider\\' => array($vendorDir . '/silex/web-profiler'),
     'Silex' => array($vendorDir . '/silex/silex/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
-    'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
+	'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
+	'WowArmoryApi' => array($vendorDir . '/wowarmoryapi'),
     '' => array($baseDir . '/src'),
 );
