@@ -8,17 +8,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 //Request::setTrustedProxies(array('127.0.0.1'));
 $app->mount('/players', new Handleit\Controllers\PlayersController());
-
-
-$app->get('/', function () use ($app) {
-    return $app['twig']->render('index.html', array());
-})
-->bind('homepage');
-
-/*$app->get('/players', function () use ($app) {
-    return $app['twig']->render('players.html', array());
-})
-	->bind('players');*/
+$app->mount('/', new Handleit\Controllers\HomeController());
 
 $app->get('/news', function () use ($app) {
     return $app['twig']->render('news.html', array());
