@@ -2,7 +2,7 @@
 
 // file src/Controllers/ForoController.php
 namespace Handleit\Controllers;
- 
+
 use Silex\Application;
 use Silex\ControllerProviderInterface;
 use WowArmoryAPI\BattlenetArmory;

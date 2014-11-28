@@ -1,6 +1,6 @@
 <?php
 
-namespace feedRead;
+namespace feedReader;
 
 class Feed {
 

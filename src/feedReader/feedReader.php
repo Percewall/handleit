@@ -1,8 +1,8 @@
 <?php
 
-namespace feedRead;
+namespace feedReader;
 
-class feedRead {
+class feedReader {
 	
 	/*private $region;
 	private $realm;
