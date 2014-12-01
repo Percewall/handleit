@@ -6,7 +6,7 @@ namespace Handleit\Controllers;
 use Silex\Application;
 use Silex\ControllerProviderInterface;
 use WowArmoryAPI\BattlenetArmory;
-use FeedReader\FeedReader;
+use feedReader\feedReader;
 
 class HomeController implements ControllerProviderInterface
 {
@@ -33,9 +33,11 @@ class HomeController implements ControllerProviderInterface
 		/*$sql="select * from phpbb_handleittopics limit 1";
 		$data['users'] = $app['db']->fetchAll($sql);
 		print_r($data);*/
-		$feed = new FeedReader();
-		$data['news'] = $feed->getMmoChampion();
-		$data["news"] = "hola";
+		$feed = new feedReader();
+		//$data['news'] = $feed->getMmoChampion();
+		$data['news'] = $feed->getBlizzard();
+		print_r($data ['news']);
+		die;
 		return $app['twig']->render('home.html', $data);
     }
  
